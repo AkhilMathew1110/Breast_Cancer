@@ -7,8 +7,8 @@ how different models work on the default dataset available associated with the p
 ## Dataset
 
 Features are measured from a digitalized image of a Fine needle aspirate (FNA) of a breast mass. We have 569 entries in the dataset and 33 columns. We are trying to focus
-on the diagnosis of cancer level based on the measurements available in the dataset, and using the trained model we can do the prediction on the unseen data. Below are the
-attribute information:
+on the diagnosis of cancer level based on the measurements available in the dataset, and using the trained model we can do the prediction on the unseen data. 
+We are trying to predict the class of diagnosis variable and all remaining 32 variables are independent. Dependent variable has two classes- Malignant (M), Benign (B). Below are the attribute information:
 
 id                    
 diagnosis             
