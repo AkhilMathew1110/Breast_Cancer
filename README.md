@@ -48,6 +48,10 @@ One of the main challeges we have seen during our model implementation was the c
 variables are mutually correlated which are really not providing any significant roles to the analysis. No null values were in dataset and we have excluded id column 
 because it doesn't add any value to our analysis.
 
+## Prerequisites
+
+Python setup on the local machine will be required for the execution. Latest version of sklearn package.
+
 ## Training & Testing
 
 For the machine learning we used Logistic Regression and for deep learning we have chosen Neural Network. For both the models we did the same train and test split.
